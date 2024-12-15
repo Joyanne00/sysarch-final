@@ -1,0 +1,63 @@
+/* Search.css */
+
+/* Global Variables */
+:root {
+    --card-bg: #ffffff;
+    --border-radius: 8px;
+    --primary-color: #4CAF50;
+    --secondary-color: #45a049;
+  }
+  
+  .search-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
+    border: 1px solid #ddd;
+  }
+  
+  .search-container button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  .search-result-item {
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-result-item a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .search-result-item a:hover {
+    color: var(--primary-color);
+  }
+  

@@ -1,0 +1,78 @@
+/* TaskManagement.css */
+
+/* Global CSS Variables */
+:root {
+  --card-bg: #ffffff;
+  --border-radius: 8px;
+  --primary-color: #4CAF50;
+  --secondary-color: #45a049;
+}
+
+.task-management {
+  background-color: var(--card-bg);
+  padding: 20px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  background-color: orange;
+  margin: 0 auto;
+}
+
+.task-management input {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: var(--border-radius);
+  border: 1px solid #ddd;
+  width: 80%;
+  display: inline-block;
+}
+
+.task-management select {
+  padding: 10px;
+  border-radius: var(--border-radius);
+  border: 1px solid #ddd;
+  width: 80%;
+  display: inline-block;
+}
+
+.task-management button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.task-management button:hover {
+  background-color: var(--secondary-color);
+}
+
+.tasks-list {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.task-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item button {
+  background-color: #FF6347;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}

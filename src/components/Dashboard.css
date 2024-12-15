@@ -1,0 +1,105 @@
+/* Dashboard.css */
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .task {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Dashboard.css */
+
+/* Container styling */
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.content-container {
+  margin-top: 0.5rem;
+}
+/* Dashboard Header */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+ text-align: center;
+}
+
+/* Dashboard Summary Cards */
+.dashboard-summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  width: 25%;
+}
+
+.summary-item h3 {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.summary-item p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+/* Dashboard Grid (Two Columns) */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 300px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .dashboard-summary {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .summary-item {
+    width: 100%;
+  }
+}
+
+  
